@@ -14,5 +14,6 @@ while True:
     elif num_usuario < desconocido:
         print(f"Ese no es el numero... el numero es mayor a {num_usuario}")
     else:
-        print(f"ESE ES EL NUMERO CORRECTO!, has tenido {INTENTOS} intentos")
         break
+
+    print(f"ESE ES EL NUMERO CORRECTO!, has tenido {INTENTOS} intentos")
